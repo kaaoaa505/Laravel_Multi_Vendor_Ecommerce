@@ -19,8 +19,23 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+    return view('_backend.index');
+})->middleware(['auth', 'verified'])->name('backend.index');
+
+
+Route::get('/dashboard/profile', function () {
+    return 'todo profile';
+})->middleware(['auth', 'verified'])->name('backend.profile');
+
+
+Route::get('/dashboard/password', function () {
+    return 'todo password';
+})->middleware(['auth', 'verified'])->name('backend.password');
+
+
+Route::get('/dashboard/logout', function () {
+    return 'todo logout';
+})->middleware(['auth', 'verified'])->name('backend.logout');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
