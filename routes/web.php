@@ -17,7 +17,6 @@ Route::controller(DemoController::class)->group(function () {
     Route::get('/contact', 'ContactMethod')->name('cotact.page');
 });
 
-
 #region Admin All Route 
 Route::middleware(['auth'])->group(function () {
     Route::controller(AdminController::class)->group(function () {
@@ -108,7 +107,6 @@ Route::controller(FooterController::class)->group(function () {
     Route::post('/update/footer', 'UpdateFooter')->name('update.footer');
 });
 #endregion
-
 
 #region Contact All Route 
 Route::controller(ContactController::class)->group(function () {

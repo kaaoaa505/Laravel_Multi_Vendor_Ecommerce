@@ -7,7 +7,6 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesdesign" name="author" />
 
-    <!-- App favicon -->
     <link rel="shortcut icon" href="{{ asset('backend/assets/images/favicon.ico') }}">
 
     <!-- jquery.vectormap css -->
