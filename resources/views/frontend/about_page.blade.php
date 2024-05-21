@@ -442,7 +442,7 @@ About | EasyLearning Website
     <div class="blog__post__thumb">
         <a href="blog-details.html"><img src="assets/img/blog/blog_post_thumb01.jpg" alt=""></a>
         <div class="blog__post__tags">
-            <a href="blog.html">Story</a>
+            <a href="/blog">Story</a>
         </div>
     </div>
     <div class="blog__post__content">
@@ -457,7 +457,7 @@ About | EasyLearning Website
     <div class="blog__post__thumb">
         <a href="blog-details.html"><img src="assets/img/blog/blog_post_thumb02.jpg" alt=""></a>
         <div class="blog__post__tags">
-            <a href="blog.html">Social</a>
+            <a href="/blog">Social</a>
         </div>
     </div>
     <div class="blog__post__content">
@@ -472,7 +472,7 @@ About | EasyLearning Website
     <div class="blog__post__thumb">
         <a href="blog-details.html"><img src="assets/img/blog/blog_post_thumb03.jpg" alt=""></a>
         <div class="blog__post__tags">
-            <a href="blog.html">Work</a>
+            <a href="/blog">Work</a>
         </div>
     </div>
     <div class="blog__post__content">
@@ -484,7 +484,7 @@ About | EasyLearning Website
 </div>
 </div>
 <div class="blog__button text-center">
-<a href="blog.html" class="btn">more blog</a>
+<a href="/blog" class="btn">more blog</a>
 </div>
 </div>
 </section>

@@ -18,7 +18,7 @@ class HomeSlideSeeder extends Seeder
         HomeSlide::insert([
             'title' => 'Home Slide 1',
             'short_title' => 'HS 1',
-            'home_slide' => '',
+            'home_slide' => 'http://127.0.0.1:8000/upload/home_slide/1798376934984060.png',
             'video_url' => '',
         ]);
     }

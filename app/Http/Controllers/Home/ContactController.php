@@ -11,7 +11,7 @@ class ContactController extends Controller
 {
     public function Contact(){
         return view('frontend.contact');
-    } // end mehtod 
+    }  
 
 
     public function StoreMessage(Request $request){
@@ -35,7 +35,7 @@ class ContactController extends Controller
         return redirect()->back()->with($notification);
 
 
-    } // end mehtod 
+    }  
 
 
     public function ContactMessage(){
@@ -43,7 +43,7 @@ class ContactController extends Controller
         $contacts = Contact::latest()->get();
         return view('admin.contact.allcontact',compact('contacts'));
 
-    } // end mehtod 
+    }  
 
 
     public function DeleteMessage($id){
@@ -57,7 +57,7 @@ class ContactController extends Controller
 
         return redirect()->back()->with($notification);
 
-    } // end mehtod 
+    }  
 
 
 

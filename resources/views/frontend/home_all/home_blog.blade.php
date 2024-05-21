@@ -15,7 +15,7 @@
             <div class="blog__post__thumb">
                 <a href="blog-details.html"><img src="{{ asset($item->blog_image) }} " alt=""></a>
                 <div class="blog__post__tags">
-      <a href="blog.html">{{ $item['category']['blog_category'] }}</a>
+      <a href="/blog">{{ $item['category']['blog_category'] }}</a>
                 </div>
             </div>
             <div class="blog__post__content">
@@ -30,7 +30,7 @@
                       
                     </div>
                     <div class="blog__button text-center">
-                        <a href="blog.html" class="btn">more blog</a>
+                        <a href="/blog" class="btn">more blog</a>
                     </div>
                 </div>
             </section>
